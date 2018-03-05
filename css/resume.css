@@ -14,13 +14,18 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
   color: #343a40;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  color: #343a40;
+  text-align: center;
 }
 
 h1 {
@@ -79,6 +84,11 @@ h2 {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
+  }
+
+  #head-text{
+    text-align: center;
+    color:blue;
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
